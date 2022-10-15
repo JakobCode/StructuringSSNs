@@ -1,0 +1,30 @@
+experiment:
+    experiment_name: "SEN12MS_rank10"
+    experiment_folder: "./Results/SEN12MS/SEN12MS_rank10"
+    seed: 42
+ssn:
+    rank: 10
+
+training:
+    num_epochs: 100
+    val_steps: 1000
+
+    batch_size_train: 32
+    batch_size_val: 32
+    num_workers: 4
+
+optimizer:
+    learning_rate: 0.001
+    decay_every_n_epochs: 1
+
+    momentum: 0.9
+    weight_decay: 0.0005
+
+data:
+    data_root: "./Datasets/SEN12MS/"
+
+    shape: [13,256,256]
+
+    num_labels: 10
+    num_classes: 10
+    num_annotators: 1

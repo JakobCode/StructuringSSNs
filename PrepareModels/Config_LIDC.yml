@@ -1,0 +1,28 @@
+
+experiment:
+    experiment_name: "LIDC_rank10"
+    experiment_folder: "./Results/LIDC/LIDC_rank10"
+    seed: 42
+ssn:
+    rank: 10
+
+training:
+    train_steps: 500000
+    epochs: None
+    val_steps: 5000
+
+    batch_size_train: 12
+    batch_size_val: 12
+
+optimizer:
+    learning_rate: 0.001
+
+data:
+    data_file: "./Datasets/LIDC/data_lidc.pickle"
+    data_folder_preproc: "./Datasets/LIDC/processed/"
+
+    shape: [1,128,128]
+
+    num_labels: 2
+    num_classes: 2
+    num_annotators: 4

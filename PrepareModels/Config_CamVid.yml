@@ -1,0 +1,31 @@
+experiment:
+    experiment_name: "CamVid_rank10"
+    experiment_folder: "./Results/CamVid/CamVid_rank10"
+    seed: 42
+ssn:
+    rank: 10
+
+training:
+    train_steps: None
+    num_epochs: 1000
+    val_steps: None
+
+    batch_size_train: 4
+    batch_size_val: 4
+    batch_size_test: 4
+
+optimizer:
+    learning_rate: 0.001
+    momentum: 0.9
+    lr_decay: 0.995
+    decay_every_n_epochs: 1
+    weight_decay: 0.0001
+
+data:
+    data_root: "./Datasets/CamVid"
+
+    shape: [10,360,480]
+
+    num_labels: 11
+    num_classes: 11
+    num_annotators: 4
