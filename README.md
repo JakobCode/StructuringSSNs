@@ -10,7 +10,7 @@ Specifically, the repository contains the following components:
 * <u>Factor Rotations</u> <br> This folder contains everything related to the factor rotations, i.e., the rotation script and different metrics to evaluate single rotations and reproduce the results from the paper. 
 * <u>Demo</u> <br> Contains a Jupyter notebook demonstrating the proposed approach. The folder also contains 5 example images for exploring the approach. 
 
-Citation
+## Citation
 If our code or our results are useful in your reasearch, please consider citing:
 
 ```
