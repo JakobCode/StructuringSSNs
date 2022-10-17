@@ -4,12 +4,23 @@
 </center>
 
 ## Content 
-This repository is an anonymous supplement to the <i>NeurIPS 2022</i> submission <i>Structuring Uncertainty for Fine-Grained Sampling in Stochastic Segmentation Networks</i>.
-In addition to the supplemental zip-file, this repository contains <it>example files</it> that can be used in combination with the prepared demo.
+This repository come along with the paper <i>Structuring Uncertainty for Fine-Grained Sampling in Stochastic Segmentation Networks</i>, published at <i>Neurips 2022</i>.
 Specifically, the repository contains the following components:
 * <u>Prepare Models</u> <br> Contains everything what needs to be done before the predicted factors can be rotated, i.e., the training and evaluation procedure of different stochastic segmentation models (for details see below). 
 * <u>Factor Rotations</u> <br> This folder contains everything related to the factor rotations, i.e., the rotation script and different metrics to evaluate single rotations and reproduce the results from the paper. 
 * <u>Demo</u> <br> Contains a Jupyter notebook demonstrating the proposed approach. The folder also contains 5 example images for exploring the approach. 
+
+Citation
+If our code or our results are useful in your reasearch, please consider citing:
+
+@inproceedings{NEURIPS2020_68d37435,
+ author = {Nussbaum, Frank and Gawlikowski, Jakob and Niebling, Julia},
+ booktitle = {Advances in Neural Information Processing Systems},
+ title = {Structuring Uncertainty for Fine-Grained Sampling in Stochastic Segmentation Networks},
+ volume = {35},
+ year = {2022}
+}
+
 
 # Working with this repository
 ### Pre-requirements
