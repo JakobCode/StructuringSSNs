@@ -13,14 +13,15 @@ Specifically, the repository contains the following components:
 Citation
 If our code or our results are useful in your reasearch, please consider citing:
 
-@inproceedings{NEURIPS2020_68d37435,
+```
+@inproceedings{nussbaum2022.structuring,
  author = {Nussbaum, Frank and Gawlikowski, Jakob and Niebling, Julia},
  booktitle = {Advances in Neural Information Processing Systems},
  title = {Structuring Uncertainty for Fine-Grained Sampling in Stochastic Segmentation Networks},
  volume = {35},
  year = {2022}
 }
-
+```
 
 # Working with this repository
 ### Pre-requirements
