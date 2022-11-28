@@ -4,7 +4,7 @@
 </center>
 
 ## Content 
-This repository come along with the paper <i>Structuring Uncertainty for Fine-Grained Sampling in Stochastic Segmentation Networks</i>, published at <i>Neurips 2022</i>.
+This repository come along with the paper <i>Structuring Uncertainty for Fine-Grained Sampling in Stochastic Segmentation Networks</i> (<a href="https://openreview.net/forum?id=odOQU9PYrkD">Link to Paper</a>), published at <i>Neurips 2022</i>.
 Specifically, the repository contains the following components:
 * <u>Prepare Models</u> <br> Contains everything what needs to be done before the predicted factors can be rotated, i.e., the training and evaluation procedure of different stochastic segmentation models (for details see below). 
 * <u>Factor Rotations</u> <br> This folder contains everything related to the factor rotations, i.e., the rotation script and different metrics to evaluate single rotations and reproduce the results from the paper. 
